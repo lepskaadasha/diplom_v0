@@ -1,0 +1,60 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(122, 122, 122); 
+  }
+.sidebar {
+    width: 400px;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-top: 60px;
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+} 
+
+li {
+  padding-left: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.section-head {
+  padding-left: 20px;
+  background-color: #f1f1f1;
+}
+
+ul.uncover li {
+    display:none;
+}
+
+.section-head:hover, li:hover {
+  background-color: rgba(104, 104, 228, 0.397);
+}
+.content {
+
+  width: calc(100vw - 400px);
+  padding: 60px 10px 0px 10px;
+  overflow-y: scroll;
+}
